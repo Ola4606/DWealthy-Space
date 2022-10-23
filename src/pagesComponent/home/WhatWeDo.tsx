@@ -1,5 +1,6 @@
 import React from "react";
 import { ButtonAdvanced } from "../../components/Buttons";
+import { Link } from "react-router-dom";
 
 const whatWeDoItemsData = [
   {
@@ -130,6 +131,7 @@ function WhatWeDo() {
           Services {<span className="text-blue-600">We Provide</span>}.
         </p>
         <div>
+        <Link to="/opportunities">
           <ButtonAdvanced
             text="Our Services"
             icon={
@@ -150,6 +152,7 @@ function WhatWeDo() {
             }
             isDark={true}
           />
+          </Link>
         </div>
       </div>
 

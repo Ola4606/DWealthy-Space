@@ -4,7 +4,6 @@ import Logo from "../images/logo.png";
 import { NavLink } from "react-router-dom";
 import { navBarItems } from "./NavBar";
 
-
 const navBarElements = navBarItems.map((i, index) => {
   if (index + 1 === navBarItems.length) {
     //this is the last navBar Item
@@ -34,14 +33,14 @@ const navBarElements = navBarItems.map((i, index) => {
     );
   } else {
     return (
-        <NavLink
-          to={i.toLowerCase() === "home" ? "/" : i.toLowerCase()}
-          className={({ isActive }) =>
-            isActive ? "bottom-nav-bar-item" : "bottom-nav-bar-item-inactive"
-          }
-        >
-          <p key={index}>{i}</p>
-        </NavLink>
+      <NavLink
+        to={i.toLowerCase() === "home" ? "/" : i.toLowerCase()}
+        className={({ isActive }) =>
+          isActive ? "bottom-nav-bar-item" : "bottom-nav-bar-item-inactive"
+        }
+      >
+        <p key={index}>{i}</p>
+      </NavLink>
     );
   }
 });
@@ -63,17 +62,7 @@ function BottomNavBar() {
 
       <div className="flex flex-col md:flex-row justify-start md:justify-between items-start md:items-center text-white font-casual font-light text-sm">
         <span>Copyright 2022 The Stone Church, Agugu. All Rights Reserved</span>
-        <span className="mt-4 md:mt-0">
-          Made by{" "}
-          <a
-            href="https://laolu.netlify.app/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="underline decoration-gray-50"
-          >
-            Laolu
-          </a>
-        </span>
+        <span className="mt-4 md:mt-0">Made by Laolu</span>
       </div>
     </div>
   );

@@ -7,14 +7,14 @@ function Intro() {
     <div className="flex justify-between items-center">
       <div className="flex flex-col justify-center items-start w-[550px]">
         <p className="text-lg text-blue-600 font-title font-bold underline underline-offset-2 decoration-gray-600">
-          Opportunities
+          About
         </p>
         <p className="my-6 text-black text-5xl font-title font-bold">
-          Here Are The Amazing Opportunities{" "}
-          {<span className="text-blue-600">We Offer</span>}.
+        We Have Been Helping People Make Money Online{" "}
+          {<span className="text-blue-600">For Years</span>}.
         </p>
         <p className="text-gray-700 text-3xl font-title font-bold">
-          All Safe, Tested, and Reliable Life Changing Financial Opportunities.
+        Dwealthy Space is a marketing, business development, representative for Fintech companies, products and sales in Africa and globally.
         </p>
         <div className="my-8">
           <ButtonAdvanced

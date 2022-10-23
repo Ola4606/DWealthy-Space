@@ -6,6 +6,8 @@ import MainOppurtunityPage from "./pagesComponent/oppurtunity/MainOppurtunityPag
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop";
 import PageNotFound from "./components/PageNotFound";
+import MainContactPage from "./pagesComponent/contact/MainContactPage";
+import MainAboutPage from "./pagesComponent/about/MainAboutPage";
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
           <Routes>
             <Route path="/" element={<MainHomePage />} />
             <Route path="/opportunities" element={<MainOppurtunityPage />} />
+            <Route path="/about" element={<MainAboutPage />} />
+            <Route path="/contact" element={<MainContactPage />} />
             <Route path="*" element={<PageNotFound />} />
           </Routes>
         </div>

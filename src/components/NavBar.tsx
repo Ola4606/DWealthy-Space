@@ -6,7 +6,6 @@ export const navBarItems = [
   "Home",
   "Opportunities",
   "About",
-  "Gallery",
   "Contact",
   "Subscribe",
 ];
