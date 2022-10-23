@@ -1,4 +1,3 @@
-import React from "react";
 import OmegaPro from "../images/omegapro.png"
 import Oppur2 from "../images/crypto.png"
 import Oppur3 from "../images/stocks.png"
